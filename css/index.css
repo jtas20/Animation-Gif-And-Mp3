@@ -1,0 +1,33 @@
+body{
+    background-color: #7aaa00;
+    margin: 0;
+    padding: 0;
+}
+
+.bomb-explosed{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.bomb-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100vh;
+}
+
+.btn-bomb{
+    font-weight: bolder;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.info-bomb{
+    font-weight: bolder;
+    display: flex;
+    width: 350px;
+}
